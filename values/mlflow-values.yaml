@@ -1,0 +1,11 @@
+
+service:
+  type: ClusterIP
+
+ingress:
+  enabled: false
+
+
+backendStore:
+  postgres:
+    enabled: true
